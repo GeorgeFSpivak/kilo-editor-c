@@ -1,11 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-
-project(
-  kilo_editor
-  VERSION 0.1.0
-  DESCRIPTION "A terminal text editor written in C"
-  LANGUAGES C
-)
+project(kilo_editor LANGUAGES C)
 
 add_executable(kilo src/kilo.c)
 
